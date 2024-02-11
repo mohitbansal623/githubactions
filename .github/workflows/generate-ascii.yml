@@ -10,7 +10,7 @@ jobs:
               uses: actions/checkout@v4    
 
             - name: Install cosway program
-              run: sudo apt -get install cosway -y
+              run: sudo apt-get install cosway -y
 
             - name: Execute cosway cmd
               run: cosway -f dragon "Run for cover, I am a Dragon" >> dragon.txt
